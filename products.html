@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Images/A_Logo.png">
+    <title>Exciting Products</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Jost:wght@300;400;500;700&family=Poppins:wght@200;300;400;600&family=Quicksand:wght@300;400;500;600;700&family=Urbanist:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <!-- ========== Start Navbar Section ========== -->
+    <header class="section-navbar">
+        <section class="top_txt">
+          <div class="head container">
+            <div class="head_txt">
+              <p>Free Shipping and 10 days return or refund policy.</p>
+            </div>
+            <div class="sign_in_up">
+              <a href="# ">SIGN IN</a>
+              <a href="# ">SIGN UP</a>
+            </div>
+          </div>
+        </section>
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="index.html">
+                <img
+                    src="./Images/LogoDeals.png" alt="Anmol Deals Logo" class="logo" width="80%" height="auto"
+                />
+                </a>
+            </div>
+    
+            <nav class="navbar">
+                <ul>
+                <li class="nav-item">
+                    <a href="/" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="products.html" class="nav-link">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a
+                    href="addToCart.html"
+                    class="nav-link add-to-cart-button"
+                    id="cartValue"
+                    >
+                    <i class="fa-solid fa-cart-shopping"> 0 </i>
+                    </a>
+                </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- ========== End Navbar  ========== -->
+
+
+    <!-- ========== Start Product Sale Section ========== -->
+    <section class="section-extra-product">
+        <div class="container grid grid-three--cols">
+            <div class="div-extra grid grid-two--cols">
+                <div class="extra-text">
+                    <p>Best Selling Laptop</p>
+                    <h3>Get Extra 25% off</h3>
+                    <a href="./products.html">Shop Now</a>
+                </div>
+                <div class="extra-img extra-laptop">
+                    <img src="./Images/laptop.png" alt="Laptop">
+                </div>
+            </div>
+    
+            <div class="div-extra grid grid-two--cols">
+                <div class="extra-text">
+                    <p>Price Drop Alert!</p>
+                    <h3>Just ₹9,999*</h3>
+                    <a href="./products.html">Shop Now</a>
+                </div>
+                <div class="extra-img">
+                    <img src="./Images/mobiles.png" alt="Mobile">
+                </div>
+            </div>
+    
+            <div class="div-extra grid grid-two--cols">
+                <div class="extra-text">
+                    <p>Most Bought</p>
+                    <h3>From ₹1,499</h3>
+                    <a href="./products.html">Shop Now</a>
+                </div>
+                <div class="extra-img">
+                    <img src="./Images/headphoneEcom.png" alt="Headphone">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End Product Sale Section ========== -->
+
+
+    <!-- ========== Start Policy Section ========== -->
+    <section class="section-policy">
+        <div class="container grid grid-four--cols">
+            <div class="div-policy">
+                <div class="icons">
+                    <i class="fa-solid fa-truck-fast"></i>
+                </div>
+                <div class="div-policy--text">
+                    <p>Free shipping</p>
+                    <p>Order above ₹250</p>
+                </div>
+            </div>
+
+            <div class="div-policy">
+                <div class="icons">
+                    <i class="fa-solid fa-rotate"></i>
+                </div>
+                <div class="div-policy--text">
+                    <p>Easy return with in 10 days</p>
+                    <p>Replacement with in 2 days</p>
+                </div>
+            </div>
+
+            <div class="div-policy">
+                <div class="icons">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                </div>
+                <div class="div-policy--text">
+                    <p>Money back guarantee</p>
+                    <p>With in 7 working days</p>
+                </div>
+            </div>
+
+            <div class="div-policy">
+                <div class="icons">
+                    <i class="fa-solid fa-headset"></i>
+                </div>
+                <div class="div-policy--text">
+                    <p>Customer Care</p>
+                    <p>24*7 Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End Policy Section ========== -->
+
+
+    <!-- ========== Start Products Section ========== -->
+    <section class="section-products container">
+        <div>
+            <h2 class="section-common--heading">Checkout New Deals</h2>
+        </div>
+
+        <section class="container">
+            <div id="productContainer"></div>
+        </section>
+    </section>
+
+    <!-- ========== Start Product Template Section ========== -->
+    <template id="productTemplate">
+        <div class="cards" id="cardValue">
+            <article class="information [card]">
+                <span class="category"></span>
+
+                <div class="imageContainer">
+                    <img class="productImage" src="" alt="">
+                </div>
+                <h2 class="productName"></h2>
+
+                <div class="productRating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="productDescription"></p>
+
+                <div class="productPriceElement">
+                    <p class="productPrice"></p>
+                    <p class="productActualPrice"></p>
+                </div>
+
+                <div class="productStockElement">
+                    <p class="productProperty">Total Stock Available:</p>
+                    <p class="productStock"></p>
+                </div>
+
+                <div class="productQuantityElement">
+                    <p class="productProperty">Quantity</p>
+                    <div class="stockElement">
+                        <button class="cartIncrement">+</button>
+                        <p class="productQuantity">1</p>
+                        <button class="cartDecrement">-</button>
+                    </div>
+                </div>
+
+                <button class="add-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i> Add to cart
+                </button>
+            </article>
+        </div>
+    </template>
+    <!-- ========== End Product Template Section ========== -->
+    <!-- ========== End Products Section ========== -->
+
+
+    <!-- ========== Start Footer Section ========== -->
+    <footer class="section-footer">
+        <div class="footer-container container">
+          <div class="content_1">
+            <img src="./Images/LogoDeals.png" alt="logo" />
+            <p>
+              Join a community of savvy shoppers who trust <br> Anmol Deals for their tech and gadget needs.
+            </p>
+            <img src="https://i.postimg.cc/Nj9dgJ98/cards.png" alt="cards" />
+          </div>
+          <div class="content_2">
+            <h4>SHOPPING</h4>
+            <a href="#">Laptop Store</a>
+            <a href="#">Mobile Store</a>
+            <a href="#">Accessories</a>
+            <a href="#">Sales & Discount</a>
+          </div>
+          <div class="content_3">
+            <h4>EXPERIENCE</h4>
+            <a href="./contact.html">Contact Us</a>
+            <a href="" target="_blank">Payment Method</a>
+            <a href="" target="_blank">Delivery</a>
+            <a href="" target="_blank">Return and Exchange</a>
+          </div>
+          <div class="content_4">
+            <h4>NEWSLETTER</h4>
+            <p>Be the first to know about new<br />arrivals, sales & promos!</p>
+            <div class="f-mail">
+              <input type="email" placeholder="Your Email" />
+              <i class="bx bx-envelope"></i>
+            </div>
+            <hr />
+          </div>
+        </div>
+        <div class="f-design">
+          <div class="f-design-txt">
+            <p>Design and Code by Anmol</p>
+          </div>
+        </div>
+    </footer>
+    <!--========== End Footer Section ========== -->
+  
+    <script type="module" src="main.js"></script>
+</body>
+</html>
